@@ -75,9 +75,9 @@ export const MobileApp = () => {
                 <ArrowLeft size={16} /> Retour
             </button>
 
-            <div className="mb-16 max-w-7xl">
+            <div className="mb-16 max-w-7xl mx-auto text-center flex flex-col items-center">
                 <h1 className="text-4xl md:text-6xl font-display font-black text-gray-900 mb-6 tracking-tight leading-tight w-full max-w-[1200px]">
-                    <span className="relative">
+                    <span className="relative inline-block">
                         Application
                         <div className="absolute -bottom-2 left-0 w-full h-1 bg-myu-teal rounded-full"></div>
                     </span> mobile

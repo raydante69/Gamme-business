@@ -161,11 +161,11 @@ export const MobileAndCollab = () => {
                 <ArrowLeft size={16} /> Retour
             </button>
 
-            <div className="mb-8 max-w-7xl">
+            <div className="mb-8 max-w-7xl mx-auto text-center flex flex-col items-center">
                 <h1 className="text-4xl md:text-5xl font-display font-black text-gray-900 mb-6 tracking-tight w-full max-w-[1200px]">
                     Application mobile et espace collaboratif
                 </h1>
-                <p className="text-xl text-gray-600 leading-relaxed font-medium">
+                <p className="text-xl text-gray-600 leading-relaxed font-medium max-w-3xl">
                     Découvrez comment utiliser l'application mobile MyUnisoft et l'espace collaboratif pour gérer votre activité.
                 </p>
             </div>

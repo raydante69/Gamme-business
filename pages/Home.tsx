@@ -84,7 +84,7 @@ export const Home = () => {
              <span className="text-xs font-bold uppercase tracking-widest font-display text-gray-800">Utilisateurs finaux</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-black text-gray-900 tracking-tight leading-none text-center cursor-default w-[1300px] max-w-full whitespace-nowrap">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-black text-gray-900 tracking-tight leading-none text-center cursor-default">
             <span className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-myu-teal hover:to-myu-purple transition-all duration-500">Maîtriser la gamme Business</span>
           </h1>
           

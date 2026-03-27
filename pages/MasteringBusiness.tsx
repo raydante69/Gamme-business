@@ -236,10 +236,10 @@ export const MasteringBusiness = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
-                className="mb-8"
+                className="mb-8 mx-auto text-center flex flex-col items-center max-w-4xl"
             >
                 <h1 className="text-4xl md:text-5xl font-display font-black text-gray-900 mb-4 tracking-tight">Maîtriser la gamme Business</h1>
-                <div className="bg-gradient-to-r from-myu-light/30 to-transparent p-6 rounded-2xl border border-myu-light">
+                <div className="bg-gradient-to-r from-myu-light/30 to-transparent p-6 rounded-2xl border border-myu-light text-left w-full">
                     <p className="text-xl text-gray-800 font-medium mb-4 leading-relaxed">
                         La réforme de la facturation électronique entre en vigueur dès septembre 2026 et impose à toutes les entreprises de se mettre en conformité.
                     </p>

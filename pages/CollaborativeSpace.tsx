@@ -59,8 +59,9 @@ export const CollaborativeSpace = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
+            className="flex flex-col items-center text-center"
         >
-            <h1 className="text-5xl md:text-6xl font-display font-black text-transparent bg-clip-text bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 mb-6 tracking-tight flex items-center gap-4">
+            <h1 className="text-5xl md:text-6xl font-display font-black text-transparent bg-clip-text bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 mb-6 tracking-tight flex items-center justify-center gap-4">
                 <div className="p-4 bg-myu-pink/10 rounded-2xl">
                     <Users size={48} className="text-myu-pink" />
                 </div>

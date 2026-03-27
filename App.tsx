@@ -40,7 +40,7 @@ const Header = () => {
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-[100] glass-nav border-b border-white/20 transition-all duration-300 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-center">
           <Link to="/" className="flex items-center gap-3 group">
             <span className="font-display font-black text-2xl text-gray-900 tracking-tighter group-hover:text-myu-teal transition-colors">Business</span>
           </Link>
