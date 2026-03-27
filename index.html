@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guide MyU - La gamme Business</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Montserrat', 'sans-serif'],
+            },
+            colors: {
+              myu: {
+                teal: '#09A7A7',
+                light: '#BFF3F3',
+                yellow: '#FFD406',
+                purple: '#A176FE',
+                pink: '#FE3A5E',
+                dark: '#1e293b',
+                'yellow-light': '#fff6cc',
+                'purple-light': '#ece4ff',
+                'pink-light': '#ffd8df',
+                'yellow-dark': '#ebc91f',
+                'purple-dark': '#614799',
+                'pink-dark': '#cb2e4b',
+              },
+            },
+            borderRadius: {
+              '4xl': '2rem',
+              '5xl': '2.5rem',
+            },
+            animation: {
+              'spin-slow': 'spin 8s linear infinite',
+              'blob': 'blob 20s infinite alternate',
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              blob: {
+                '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                '100%': { transform: 'translate(0px, 0px) scale(1)' },
+              },
+              float: {
+                '0%': { transform: 'translateY(0px)' },
+                '50%': { transform: 'translateY(-10px)' },
+                '100%': { transform: 'translateY(0px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #f8fafc;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .glass-nav {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+      }
+      .glass-panel {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05);
+      }
+      
+      /* Titres Créatifs - Zigzag style */
+      .title-zigzag {
+        position: relative;
+        display: inline-block;
+        z-index: 10;
+      }
+      .title-zigzag::after {
+        content: '';
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        width: 100%;
+        height: 12px;
+        background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 10 L10 2 L20 10 L30 2 L40 10' stroke='%2309A7A7' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round' opacity='0.8'/%3E%3C/svg%3E");
+        background-repeat: repeat-x;
+        background-size: 20px 12px;
+        z-index: -1;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0?deps=react@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client?deps=react@18.2.0",
+    "lucide-react": "https://esm.sh/lucide-react@0.292.0?deps=react@18.2.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.20.0?deps=react@18.2.0,react-dom@18.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
